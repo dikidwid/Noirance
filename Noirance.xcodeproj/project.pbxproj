@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1224BA2B517BEC00514DC6 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1224B92B517BEC00514DC6 /* AddTransactionViewModel.swift */; };
+		3A1224BC2B5185E000514DC6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1224BB2B5185E000514DC6 /* test.swift */; };
+		3A4E4DC82B3D4E900011B665 /* NoiranceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DC72B3D4E900011B665 /* NoiranceApp.swift */; };
+		3A4E4DCA2B3D4E900011B665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DC92B3D4E900011B665 /* ContentView.swift */; };
+		3A4E4DCC2B3D4E920011B665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4E4DCB2B3D4E920011B665 /* Assets.xcassets */; };
+		3A4E4DCF2B3D4E920011B665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4E4DCE2B3D4E920011B665 /* Preview Assets.xcassets */; };
+		3A4E4DD12B3D4E920011B665 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DD02B3D4E920011B665 /* Persistence.swift */; };
+		3A4E4DD42B3D4E920011B665 /* Noirance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DD22B3D4E920011B665 /* Noirance.xcdatamodeld */; };
+		3A4E4DDC2B3D55180011B665 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DDB2B3D55180011B665 /* HomeView.swift */; };
+		3A4E4DE02B3D74020011B665 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E4DDF2B3D74020011B665 /* Wallet.swift */; };
+		3A6272072B51524800A68403 /* FinancialActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6272062B51524800A68403 /* FinancialActivityView.swift */; };
+		3A768B442B4FD4B700DA3EF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A768B432B4FD4B700DA3EF1 /* MainView.swift */; };
+		3A768B472B4FD7DA00DA3EF1 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A768B462B4FD7DA00DA3EF1 /* AddTransactionView.swift */; };
+		3A768B492B4FD81400DA3EF1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A768B482B4FD81400DA3EF1 /* ProfileView.swift */; };
+		3A768B4F2B50264100DA3EF1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A768B4E2B50264100DA3EF1 /* HomeViewModel.swift */; };
+		3A768B542B50565500DA3EF1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A768B532B50565500DA3EF1 /* MainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1224B92B517BEC00514DC6 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		3A1224BB2B5185E000514DC6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		3A4E4DC42B3D4E900011B665 /* Noirance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noirance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4E4DC72B3D4E900011B665 /* NoiranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiranceApp.swift; sourceTree = "<group>"; };
+		3A4E4DC92B3D4E900011B665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A4E4DCB2B3D4E920011B665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4E4DCE2B3D4E920011B665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A4E4DD02B3D4E920011B665 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3A4E4DD32B3D4E920011B665 /* Noirance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noirance.xcdatamodel; sourceTree = "<group>"; };
+		3A4E4DDB2B3D55180011B665 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A4E4DDF2B3D74020011B665 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		3A6272062B51524800A68403 /* FinancialActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialActivityView.swift; sourceTree = "<group>"; };
+		3A768B432B4FD4B700DA3EF1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3A768B462B4FD7DA00DA3EF1 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		3A768B482B4FD81400DA3EF1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3A768B4E2B50264100DA3EF1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3A768B532B50565500DA3EF1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4E4DC12B3D4E900011B665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4E4DBB2B3D4E900011B665 = {
+			isa = PBXGroup;
+			children = (
+				3A4E4DC62B3D4E900011B665 /* Noirance */,
+				3A4E4DC52B3D4E900011B665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4E4DC52B3D4E900011B665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4E4DC42B3D4E900011B665 /* Noirance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4E4DC62B3D4E900011B665 /* Noirance */ = {
+			isa = PBXGroup;
+			children = (
+				3A768B452B4FD4C900DA3EF1 /* Model */,
+				3A768B4A2B50257300DA3EF1 /* Screen */,
+				3A4E4DC72B3D4E900011B665 /* NoiranceApp.swift */,
+				3A4E4DC92B3D4E900011B665 /* ContentView.swift */,
+				3A4E4DCB2B3D4E920011B665 /* Assets.xcassets */,
+				3A4E4DD02B3D4E920011B665 /* Persistence.swift */,
+				3A4E4DD22B3D4E920011B665 /* Noirance.xcdatamodeld */,
+				3A4E4DCD2B3D4E920011B665 /* Preview Content */,
+			);
+			path = Noirance;
+			sourceTree = "<group>";
+		};
+		3A4E4DCD2B3D4E920011B665 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A4E4DCE2B3D4E920011B665 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A768B452B4FD4C900DA3EF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A4E4DDF2B3D74020011B665 /* Wallet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A768B4A2B50257300DA3EF1 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3A768B532B50565500DA3EF1 /* MainViewModel.swift */,
+				3A768B432B4FD4B700DA3EF1 /* MainView.swift */,
+				3A768B4B2B5025AF00DA3EF1 /* HomeView */,
+				3A768B4D2B5025C600DA3EF1 /* AddTransactionView */,
+				3A768B4C2B5025BE00DA3EF1 /* ProfileView */,
+				3A6272062B51524800A68403 /* FinancialActivityView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		3A768B4B2B5025AF00DA3EF1 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				3A768B4E2B50264100DA3EF1 /* HomeViewModel.swift */,
+				3A4E4DDB2B3D55180011B665 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		3A768B4C2B5025BE00DA3EF1 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				3A768B482B4FD81400DA3EF1 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		3A768B4D2B5025C600DA3EF1 /* AddTransactionView */ = {
+			isa = PBXGroup;
+			children = (
+				3A768B462B4FD7DA00DA3EF1 /* AddTransactionView.swift */,
+				3A1224B92B517BEC00514DC6 /* AddTransactionViewModel.swift */,
+				3A1224BB2B5185E000514DC6 /* test.swift */,
+			);
+			path = AddTransactionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4E4DC32B3D4E900011B665 /* Noirance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4E4DD72B3D4E920011B665 /* Build configuration list for PBXNativeTarget "Noirance" */;
+			buildPhases = (
+				3A4E4DC02B3D4E900011B665 /* Sources */,
+				3A4E4DC12B3D4E900011B665 /* Frameworks */,
+				3A4E4DC22B3D4E900011B665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noirance;
+			productName = Noirance;
+			productReference = 3A4E4DC42B3D4E900011B665 /* Noirance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4E4DBC2B3D4E900011B665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3A4E4DC32B3D4E900011B665 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A4E4DBF2B3D4E900011B665 /* Build configuration list for PBXProject "Noirance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4E4DBB2B3D4E900011B665;
+			productRefGroup = 3A4E4DC52B3D4E900011B665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4E4DC32B3D4E900011B665 /* Noirance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4E4DC22B3D4E900011B665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4E4DCF2B3D4E920011B665 /* Preview Assets.xcassets in Resources */,
+				3A4E4DCC2B3D4E920011B665 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4E4DC02B3D4E900011B665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4E4DE02B3D74020011B665 /* Wallet.swift in Sources */,
+				3A768B492B4FD81400DA3EF1 /* ProfileView.swift in Sources */,
+				3A768B442B4FD4B700DA3EF1 /* MainView.swift in Sources */,
+				3A768B4F2B50264100DA3EF1 /* HomeViewModel.swift in Sources */,
+				3A768B472B4FD7DA00DA3EF1 /* AddTransactionView.swift in Sources */,
+				3A4E4DD42B3D4E920011B665 /* Noirance.xcdatamodeld in Sources */,
+				3A4E4DD12B3D4E920011B665 /* Persistence.swift in Sources */,
+				3A4E4DCA2B3D4E900011B665 /* ContentView.swift in Sources */,
+				3A4E4DDC2B3D55180011B665 /* HomeView.swift in Sources */,
+				3A1224BA2B517BEC00514DC6 /* AddTransactionViewModel.swift in Sources */,
+				3A4E4DC82B3D4E900011B665 /* NoiranceApp.swift in Sources */,
+				3A768B542B50565500DA3EF1 /* MainViewModel.swift in Sources */,
+				3A6272072B51524800A68403 /* FinancialActivityView.swift in Sources */,
+				3A1224BC2B5185E000514DC6 /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A4E4DD52B3D4E920011B665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A4E4DD62B3D4E920011B665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4E4DD82B3D4E920011B665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Noirance/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ4D5LRK3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dikidwid.Noirance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A4E4DD92B3D4E920011B665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Noirance/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ4D5LRK3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dikidwid.Noirance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4E4DBF2B3D4E900011B665 /* Build configuration list for PBXProject "Noirance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4E4DD52B3D4E920011B665 /* Debug */,
+				3A4E4DD62B3D4E920011B665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4E4DD72B3D4E920011B665 /* Build configuration list for PBXNativeTarget "Noirance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4E4DD82B3D4E920011B665 /* Debug */,
+				3A4E4DD92B3D4E920011B665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A4E4DD22B3D4E920011B665 /* Noirance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A4E4DD32B3D4E920011B665 /* Noirance.xcdatamodel */,
+			);
+			currentVersion = 3A4E4DD32B3D4E920011B665 /* Noirance.xcdatamodel */;
+			path = Noirance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A4E4DBC2B3D4E900011B665 /* Project object */;
+}
